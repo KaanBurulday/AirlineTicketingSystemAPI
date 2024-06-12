@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Migrations\\20240612140159_azv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240612140159_azv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\source\\svc\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:source\\svc\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,14 +54,6 @@
       "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\source\\svc\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:source\\svc\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -60,10 +64,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\source\\svc\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:source\\svc\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Migrations\\20240612095223_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240612095223_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\source\\svc\\milesaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -216,6 +216,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\generalnotes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:generalnotes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|c:\\users\\kaanb\\source\\repos\\airlineticketingsystemapi\\migrations\\20240612095223_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDEF78D-A2EC-4569-A9C4-508E652E663A}|AirlineTicketingSystemAPI.csproj|solutionrelative:migrations\\20240612095223_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -225,11 +229,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "20240612140159_azv1.cs",
+              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Migrations\\20240612140159_azv1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240612140159_azv1.cs",
+              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Migrations\\20240612140159_azv1.cs",
+              "RelativeToolTip": "Migrations\\20240612140159_azv1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:01:59.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FlightService.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Source\\Svc\\FlightService.cs",
               "RelativeDocumentMoniker": "Source\\Svc\\FlightService.cs",
@@ -242,46 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FlightController.cs",
-              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\FlightController.cs",
-              "RelativeDocumentMoniker": "Controllers\\v1\\FlightController.cs",
-              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\FlightController.cs",
-              "RelativeToolTip": "Controllers\\v1\\FlightController.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAkwG8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:31:26.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FlightDto.cs",
-              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Model\\Dto\\FlightDto.cs",
-              "RelativeDocumentMoniker": "Model\\Dto\\FlightDto.cs",
-              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Model\\Dto\\FlightDto.cs",
-              "RelativeToolTip": "Model\\Dto\\FlightDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:43:50.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\BookingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\v1\\BookingController.cs",
-              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\BookingController.cs",
-              "RelativeToolTip": "Controllers\\v1\\BookingController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:37:33.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\v1\\UserController.cs",
@@ -289,12 +267,11 @@
               "RelativeToolTip": "Controllers\\v1\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T14:36:56.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T14:36:56.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TicketController.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\TicketController.cs",
               "RelativeDocumentMoniker": "Controllers\\v1\\TicketController.cs",
@@ -302,12 +279,11 @@
               "RelativeToolTip": "Controllers\\v1\\TicketController.cs",
               "ViewState": "AQIAAH8AAAAAAAAAAAAmwK8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:42:36.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T00:42:36.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "TicketDto.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Model\\Dto\\TicketDto.cs",
               "RelativeDocumentMoniker": "Model\\Dto\\TicketDto.cs",
@@ -315,12 +291,73 @@
               "RelativeToolTip": "Model\\Dto\\TicketDto.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:46:55.257Z",
+              "WhenOpened": "2024-06-09T15:46:55.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:32:39.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAACgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T23:29:49.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\v1\\BookingController.cs",
+              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\v1\\BookingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:37:33.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FlightDto.cs",
+              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Model\\Dto\\FlightDto.cs",
+              "RelativeDocumentMoniker": "Model\\Dto\\FlightDto.cs",
+              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Model\\Dto\\FlightDto.cs",
+              "RelativeToolTip": "Model\\Dto\\FlightDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T20:43:50.712Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "FlightController.cs",
+              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\FlightController.cs",
+              "RelativeDocumentMoniker": "Controllers\\v1\\FlightController.cs",
+              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\FlightController.cs",
+              "RelativeToolTip": "Controllers\\v1\\FlightController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAkwG8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T22:31:26.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AirportController.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Controllers\\v1\\AirportController.cs",
               "RelativeDocumentMoniker": "Controllers\\v1\\AirportController.cs",
@@ -328,38 +365,11 @@
               "RelativeToolTip": "Controllers\\v1\\AirportController.cs",
               "ViewState": "AQIAAIYAAAAAAAAAAAAswJIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:23:24.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:23:24.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:32:39.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T23:29:49.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PlaneService.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Source\\Svc\\PlaneService.cs",
               "RelativeDocumentMoniker": "Source\\Svc\\PlaneService.cs",
@@ -367,12 +377,11 @@
               "RelativeToolTip": "Source\\Svc\\PlaneService.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:47:55.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:47:55.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Container.targets",
               "DocumentMoniker": "C:\\Users\\kaanb\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
@@ -380,12 +389,11 @@
               "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
               "ViewState": "AQIAANQAAAAAAAAAAAAYwNYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-12T11:47:22.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T11:47:22.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Source\\Svc\\TicketService.cs",
               "RelativeDocumentMoniker": "Source\\Svc\\TicketService.cs",
@@ -393,12 +401,11 @@
               "RelativeToolTip": "Source\\Svc\\TicketService.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAgwCEAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:47:21.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:47:21.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -406,12 +413,11 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-12T11:33:02.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T11:33:02.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "BookingService.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Source\\Svc\\BookingService.cs",
               "RelativeDocumentMoniker": "Source\\Svc\\BookingService.cs",
@@ -419,12 +425,11 @@
               "RelativeToolTip": "Source\\Svc\\BookingService.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAEwFYAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:42:00.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:42:00.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 54,
               "Title": "20240612095223_v1.cs",
               "DocumentMoniker": "C:\\Users\\kaanb\\source\\repos\\AirlineTicketingSystemAPI\\Migrations\\20240612095223_v1.cs",
               "RelativeDocumentMoniker": "Migrations\\20240612095223_v1.cs",
@@ -432,8 +437,7 @@
               "RelativeToolTip": "Migrations\\20240612095223_v1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:52:23.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T09:52:23.224Z"
             },
             {
               "$type": "Document",
@@ -445,8 +449,7 @@
               "RelativeToolTip": "Source\\Svc\\MilesAccountService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:28:36.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T20:28:36.602Z"
             },
             {
               "$type": "Document",
@@ -458,8 +461,7 @@
               "RelativeToolTip": "Source\\Db\\MilesAccountAccess.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAA2wC0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:19:26.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T20:19:26.152Z"
             },
             {
               "$type": "Document",
@@ -471,8 +473,7 @@
               "RelativeToolTip": "Model\\MilesAccount.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:15:55.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:15:55.044Z"
             },
             {
               "$type": "Document",
@@ -484,8 +485,7 @@
               "RelativeToolTip": "Source\\Svc\\Interfaces\\IMilesAccountService.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAAoAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:29:40.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T20:29:40.717Z"
             },
             {
               "$type": "Document",
@@ -497,8 +497,7 @@
               "RelativeToolTip": "Model\\User.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T18:52:50.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T18:52:50.077Z"
             },
             {
               "$type": "Document",
@@ -510,8 +509,7 @@
               "RelativeToolTip": "Model\\Dto\\MilesAccountDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T23:37:28.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T23:37:28.734Z"
             },
             {
               "$type": "Document",
@@ -523,8 +521,7 @@
               "RelativeToolTip": "Model\\Ticket.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAA3wBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:41:35.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:41:35.906Z"
             },
             {
               "$type": "Document",
@@ -536,8 +533,7 @@
               "RelativeToolTip": "Source\\Db\\TicketAccess.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAA0wB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:47:14.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:47:14.598Z"
             },
             {
               "$type": "Document",
@@ -549,8 +545,7 @@
               "RelativeToolTip": "Source\\Svc\\Interfaces\\ITicketService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T23:52:49.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T23:52:49.482Z"
             },
             {
               "$type": "Document",
@@ -562,8 +557,7 @@
               "RelativeToolTip": "Controllers\\v1\\GeneratorController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAYwCQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:13:28.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:13:28.519Z"
             },
             {
               "$type": "Document",
@@ -575,8 +569,7 @@
               "RelativeToolTip": "Source\\Db\\FlightAccess.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAkwBkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:57:37.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T22:57:37.912Z"
             },
             {
               "$type": "Document",
@@ -588,8 +581,7 @@
               "RelativeToolTip": "Source\\Svc\\Interfaces\\IBookingService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:26:52.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:26:52.093Z"
             },
             {
               "$type": "Document",
@@ -601,8 +593,7 @@
               "RelativeToolTip": "Source\\Svc\\Interfaces\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:46:36.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T22:46:36.722Z"
             },
             {
               "$type": "Document",
@@ -614,8 +605,7 @@
               "RelativeToolTip": "Source\\Svc\\AirportService.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAYwDYAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:49:28.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:49:28.597Z"
             },
             {
               "$type": "Document",
@@ -627,8 +617,7 @@
               "RelativeToolTip": "Migrations\\20240612091029_v1.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:10:30.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T09:10:30.081Z"
             },
             {
               "$type": "Document",
@@ -640,8 +629,7 @@
               "RelativeToolTip": "Context\\AirlineTicketingSystemContext.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAewA4AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:35:31.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:35:31.251Z"
             },
             {
               "$type": "Document",
@@ -653,8 +641,7 @@
               "RelativeToolTip": "Model\\Flight.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAkwBwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:43:34.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T20:43:34.339Z"
             },
             {
               "$type": "Document",
@@ -666,8 +653,7 @@
               "RelativeToolTip": "Model\\Plane.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAgwA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:09:33.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T00:09:33.24Z"
             },
             {
               "$type": "Document",
@@ -679,8 +665,7 @@
               "RelativeToolTip": "Source\\Svc\\UserService.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAIA+wJ0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:47:43.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:47:43.375Z"
             },
             {
               "$type": "Document",
@@ -692,8 +677,7 @@
               "RelativeToolTip": "Model\\Dto\\PlaneDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:48:45.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:48:45.962Z"
             },
             {
               "$type": "Document",
@@ -705,8 +689,7 @@
               "RelativeToolTip": "Controllers\\v1\\MilesAccountController.cs",
               "ViewState": "AQIAADUAAAAAAAAAAAAgwBAAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:23:43.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:23:43.696Z"
             },
             {
               "$type": "Document",
@@ -718,8 +701,7 @@
               "RelativeToolTip": "Model\\Constants\\QueryWithPagingDto.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwA8AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:46:09.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T02:46:09.496Z"
             },
             {
               "$type": "Document",
@@ -731,8 +713,7 @@
               "RelativeToolTip": "Source\\Db\\AirportAccess.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAgwCkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:25:04.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:25:04.686Z"
             },
             {
               "$type": "Document",
@@ -744,8 +725,7 @@
               "RelativeToolTip": "Model\\Dto\\UserDto.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T14:39:03.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T14:39:03.936Z"
             },
             {
               "$type": "Document",
@@ -757,8 +737,7 @@
               "RelativeToolTip": "Source\\Svc\\Interfaces\\IFlightService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:52:40.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T01:52:40.684Z"
             },
             {
               "$type": "Document",
@@ -770,8 +749,7 @@
               "RelativeToolTip": "Source\\Svc\\DistanceCalculatorService.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAgwCEAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:19:41.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T00:19:41.157Z"
             },
             {
               "$type": "Document",
@@ -783,8 +761,7 @@
               "RelativeToolTip": "Model\\Airport.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA1wBkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:14:47.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:14:47.586Z"
             },
             {
               "$type": "Document",
@@ -796,8 +773,7 @@
               "RelativeToolTip": "Model\\Dto\\AirportDto.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwAwAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:26:44.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:26:44.191Z"
             },
             {
               "$type": "Document",
@@ -809,8 +785,7 @@
               "RelativeToolTip": "Model\\Dto\\APIResultDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:22:01.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:22:01.078Z"
             },
             {
               "$type": "Document",
@@ -822,8 +797,7 @@
               "RelativeToolTip": "Source\\Svc\\JwtTokenService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:15:02.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T00:15:02.473Z"
             },
             {
               "$type": "Document",
@@ -835,8 +809,7 @@
               "RelativeToolTip": "Migrations\\20240612004022_v1.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwBQAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:40:22.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T00:40:22.78Z"
             },
             {
               "$type": "Document",
@@ -848,8 +821,7 @@
               "RelativeToolTip": "Controllers\\v1\\PlaneController.cs",
               "ViewState": "AQIAAIYAAAAAAAAAAIAwwIcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:10:02.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T20:10:02.613Z"
             },
             {
               "$type": "Document",
@@ -861,8 +833,7 @@
               "RelativeToolTip": "Source\\Db\\UserAccess.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAYwBkAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:31:27.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T20:31:27.561Z"
             },
             {
               "$type": "Document",
@@ -874,8 +845,7 @@
               "RelativeToolTip": "Source\\Svc\\Interfaces\\IPlaneService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:50:56.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T22:50:56.933Z"
             },
             {
               "$type": "Document",
@@ -887,8 +857,7 @@
               "RelativeToolTip": "Source\\Svc\\Interfaces\\IAirportService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:12:21.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T00:12:21.462Z"
             },
             {
               "$type": "Document",
@@ -900,8 +869,7 @@
               "RelativeToolTip": "Source\\Db\\PlaneAccess.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAcwBkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:31:39.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:31:39.767Z"
             },
             {
               "$type": "Document",
@@ -913,8 +881,7 @@
               "RelativeToolTip": "Source\\Svc\\Interfaces\\IDistanceCalculatorService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T00:33:39.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T00:33:39.55Z"
             },
             {
               "$type": "Document",

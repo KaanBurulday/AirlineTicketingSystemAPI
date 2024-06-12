@@ -65,7 +65,7 @@ namespace AirlineTicketingSystemAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Airport");
+                    b.ToTable("Airport", (string)null);
                 });
 
             modelBuilder.Entity("AirlineTicketingSystemAPI.Model.Flight", b =>
@@ -119,7 +119,7 @@ namespace AirlineTicketingSystemAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Flight");
+                    b.ToTable("Flight", (string)null);
                 });
 
             modelBuilder.Entity("AirlineTicketingSystemAPI.Model.MilesAccount", b =>
@@ -139,7 +139,7 @@ namespace AirlineTicketingSystemAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MilesAccount");
+                    b.ToTable("MilesAccount", (string)null);
                 });
 
             modelBuilder.Entity("AirlineTicketingSystemAPI.Model.Plane", b =>
@@ -162,7 +162,7 @@ namespace AirlineTicketingSystemAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Plane");
+                    b.ToTable("Plane", (string)null);
                 });
 
             modelBuilder.Entity("AirlineTicketingSystemAPI.Model.Ticket", b =>
@@ -202,7 +202,7 @@ namespace AirlineTicketingSystemAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Ticket");
+                    b.ToTable("Ticket", (string)null);
                 });
 
             modelBuilder.Entity("AirlineTicketingSystemAPI.Model.User", b =>
@@ -230,7 +230,7 @@ namespace AirlineTicketingSystemAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("User", (string)null);
                 });
 #pragma warning restore 612, 618
         }
