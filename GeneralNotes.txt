@@ -1,0 +1,497 @@
+﻿Add-Migration MigrationName
+Remove-Migration -Force
+Update-Database
+
+double averageSpeed = 850.0; // Average cruising speed of a commercial jet in km/h
+
+Miles&Smiles
+API KEY: l7xx1945f7019454450db08548532307b466
+API SECRET: 8068732acc474bf29beb0221ce0001af
+
+// Update miles -> will be added to the scheduler, if the flight ends that date, the miles will be added!
+if (ticketDto.UserId.HasValue)
+{
+    MilesAccount milesAccount = await _milesAccountAccess.GetMilesAccountByUserAsync(ticketDto.UserId.Value);
+    if (milesAccount != null)
+    {
+        await _milesAccountAccess.AddMilesToAccountAsync(RoundMiles(flight.TotalMiles), milesAccount.Id);
+    }
+    else
+    {
+        _logger.LogWarning("Miles account not found for user {UserId}", ticketDto.UserId.Value);
+    }
+}
+
+[HttpPost("UnpaidTuitionStatus")]
+public List<StudentDto> GetUnpaidTuitionStatus([FromBody] QueryWithPagingDto query)
+{
+    List<Student> datas = _studentService.Get().ToList();
+    List<Student> datasFiltered = datas.Skip((query.PageNumber - 1) * query.PageSize)
+        .Take(query.PageSize).ToList();
+
+    List<StudentDto> ret = new List<StudentDto>();
+    datasFiltered.ForEach(data => { if(data.Status == StudentStatus.PaymentPending) ret.Add(createStudentDto(data)); });
+    return ret;
+}
+
+migrationBuilder.CreateTable(
+    name: "Flight",
+    columns: table => new
+    {
+        Id = table.Column<int>(nullable: false)
+            .Annotation("SqlServer:Identity", "1, 1"),
+        DepartureDate = table.Column<DateTime>(nullable: false),
+        ArrivalDate = table.Column<DateTime>(nullable: false),
+        DateCreated = table.Column<DateTime>(nullable: false),
+        Status = table.Column<int>(nullable: false),
+        DepartureAirportId = table.Column<int>(nullable: false),
+        ArrivalAirportId = table.Column<int>(nullable: false),
+        PlaneId = table.Column<int>(nullable: false)
+    },
+    constraints: table =>
+    {
+        table.PrimaryKey("PK_Flight", x => x.Id);
+        table.ForeignKey(
+            name: "FK_Flight_Airport_ArrivalAirportId",
+            column: x => x.ArrivalAirportId,
+            principalTable: "Airport",
+            principalColumn: "Id",
+            onDelete: ReferentialAction.Restrict); // Changed from Cascade to Restrict
+        table.ForeignKey(
+            name: "FK_Flight_Airport_DepartureAirportId",
+            column: x => x.DepartureAirportId,
+            principalTable: "Airport",
+            principalColumn: "Id",
+            onDelete: ReferentialAction.Restrict); // Changed from Cascade to Restrict
+        table.ForeignKey(
+            name: "FK_Flight_Plane_PlaneId",
+            column: x => x.PlaneId,
+            principalTable: "Plane",
+            principalColumn: "Id",
+            onDelete: ReferentialAction.Cascade); // Retained Cascade
+    });
+
+Controller 
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace YourNamespace.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ProductsController : ControllerBase
+    {
+        private readonly IProductService _productService;
+        private readonly ILogger<ProductsController> _logger;
+
+        public ProductsController(IProductService productService, ILogger<ProductsController> logger)
+        {
+            _productService = productService ?? throw new ArgumentNullException(nameof(productService));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts()
+        {
+            try
+            {
+                var products = await _productService.GetProductsAsync();
+                return Ok(products);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving products");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ProductDto>> GetProduct(int id)
+        {
+            try
+            {
+                var product = await _productService.GetProductByIdAsync(id);
+
+                if (product == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(product);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving product");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<ProductDto>> CreateProduct([FromBody] CreateProductDto productDto)
+        {
+            if (productDto == null)
+            {
+                return BadRequest("Product data is null");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var createdProduct = await _productService.CreateProductAsync(productDto);
+                return CreatedAtAction(nameof(GetProduct), new { id = createdProduct.Id }, createdProduct);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error creating product");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] UpdateProductDto productDto)
+        {
+            if (productDto == null)
+            {
+                return BadRequest("Product data is null");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var existingProduct = await _productService.GetProductByIdAsync(id);
+
+                if (existingProduct == null)
+                {
+                    return NotFound();
+                }
+
+                await _productService.UpdateProductAsync(id, productDto);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error updating product");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            try
+            {
+                var existingProduct = await _productService.GetProductByIdAsync(id);
+
+                if (existingProduct == null)
+                {
+                    return NotFound();
+                }
+
+                await _productService.DeleteProductAsync(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error deleting product");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+    }
+}
+
+To complete the example with a service and database access layer, we'll need the following components:
+
+Service Interface (IProductService) and Implementation (ProductService)
+Repository Interface (IProductRepository) and Implementation (ProductRepository)
+Data Models (Product, ProductDto, CreateProductDto, UpdateProductDto)
+Let's start with the service layer:
+
+1. Service Layer
+IProductService.cs
+
+csharp
+Copy code
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+public interface IProductService
+{
+    Task<IEnumerable<ProductDto>> GetProductsAsync();
+    Task<ProductDto> GetProductByIdAsync(int id);
+    Task<ProductDto> CreateProductAsync(CreateProductDto productDto);
+    Task UpdateProductAsync(int id, UpdateProductDto productDto);
+    Task DeleteProductAsync(int id);
+}
+ProductService.cs
+
+csharp
+Copy code
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+public class ProductService : IProductService
+{
+    private readonly IProductRepository _productRepository;
+
+    public ProductService(IProductRepository productRepository)
+    {
+        _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));
+    }
+
+    public async Task<IEnumerable<ProductDto>> GetProductsAsync()
+    {
+        var products = await _productRepository.GetProductsAsync();
+        return products; // Map entities to DTOs if necessary
+    }
+
+    public async Task<ProductDto> GetProductByIdAsync(int id)
+    {
+        var product = await _productRepository.GetProductByIdAsync(id);
+        return product; // Map entity to DTO if necessary
+    }
+
+    public async Task<ProductDto> CreateProductAsync(CreateProductDto productDto)
+    {
+        var product = new Product
+        {
+            // Map DTO to entity
+            Name = productDto.Name,
+            Price = productDto.Price,
+            Description = productDto.Description
+        };
+
+        var createdProduct = await _productRepository.CreateProductAsync(product);
+        return new ProductDto // Map entity to DTO
+        {
+            Id = createdProduct.Id,
+            Name = createdProduct.Name,
+            Price = createdProduct.Price,
+            Description = createdProduct.Description
+        };
+    }
+
+    public async Task UpdateProductAsync(int id, UpdateProductDto productDto)
+    {
+        var product = new Product
+        {
+            Id = id,
+            Name = productDto.Name,
+            Price = productDto.Price,
+            Description = productDto.Description
+        };
+
+        await _productRepository.UpdateProductAsync(product);
+    }
+
+    public async Task DeleteProductAsync(int id)
+    {
+        await _productRepository.DeleteProductAsync(id);
+    }
+}
+2. Repository Layer
+IProductRepository.cs
+
+csharp
+Copy code
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+public interface IProductRepository
+{
+    Task<IEnumerable<Product>> GetProductsAsync();
+    Task<Product> GetProductByIdAsync(int id);
+    Task<Product> CreateProductAsync(Product product);
+    Task UpdateProductAsync(Product product);
+    Task DeleteProductAsync(int id);
+}
+ProductRepository.cs
+
+csharp
+Copy code
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+public class ProductRepository : IProductRepository
+{
+    private readonly AppDbContext _context;
+
+    public ProductRepository(AppDbContext context)
+    {
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+    }
+
+    public async Task<IEnumerable<Product>> GetProductsAsync()
+    {
+        return await _context.Products.ToListAsync();
+    }
+
+    public async Task<Product> GetProductByIdAsync(int id)
+    {
+        return await _context.Products.FindAsync(id);
+    }
+
+    public async Task<Product> CreateProductAsync(Product product)
+    {
+        _context.Products.Add(product);
+        await _context.SaveChangesAsync();
+        return product;
+    }
+
+    public async Task UpdateProductAsync(Product product)
+    {
+        _context.Entry(product).State = EntityState.Modified;
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task DeleteProductAsync(int id)
+    {
+        var product = await _context.Products.FindAsync(id);
+        if (product != null)
+        {
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+        }
+    }
+}
+3. Data Models
+Product.cs
+
+csharp
+Copy code
+public class Product
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public string Description { get; set; }
+}
+ProductDto.cs
+
+csharp
+Copy code
+public class ProductDto
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public string Description { get; set; }
+}
+CreateProductDto.cs
+
+csharp
+Copy code
+public class CreateProductDto
+{
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public string Description { get; set; }
+}
+UpdateProductDto.cs
+
+csharp
+Copy code
+public class UpdateProductDto
+{
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public string Description { get; set; }
+}
+4. AppDbContext
+AppDbContext.cs
+
+csharp
+Copy code
+using Microsoft.EntityFrameworkCore;
+
+public class AppDbContext : DbContext
+{
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
+    public DbSet<Product> Products { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        
+        // Seed data if necessary
+        modelBuilder.Entity<Product>().HasData(
+            new Product { Id = 1, Name = "Product1", Price = 100.0M, Description = "Description1" },
+            new Product { Id = 2, Name = "Product2", Price = 200.0M, Description = "Description2" }
+        );
+    }
+}
+Dependency Injection in Startup.cs
+Startup.cs
+
+csharp
+Copy code
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+
+public class Startup
+{
+    public Startup(IConfiguration configuration)
+    {
+        Configuration = configuration;
+    }
+
+    public IConfiguration Configuration { get; }
+
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddControllers();
+
+        services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddScoped<IProductService, ProductService>();
+        services.AddScoped<IProductRepository, ProductRepository>();
+
+        services.AddSwaggerGen(c =>
+        {
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API", Version = "v1" });
+        });
+    }
+
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        if (env.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API v1"));
+        }
+        else
+        {
+            app.UseExceptionHandler("/Home/Error");
+            app.UseHsts();
+        }
+
+        app.UseHttpsRedirection();
+        app.UseRouting();
+        app.UseAuthorization();
+
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
+    }
+}
+With this setup, you have a complete implementation of a C# Web API following best practices for controller, service, and repository layers with dependency injection, model validation, error handling, and more. Make sure to adjust connection strings and configurations according to your environment.
